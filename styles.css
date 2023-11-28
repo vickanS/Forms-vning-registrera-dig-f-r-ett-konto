@@ -47,8 +47,13 @@ input {
     color: #000;
     display: flex;
     width: 350px;
-    height: 30px;
-    font-size: 15px;
+    height: 35px;
+    font-size: 20px;
+}
+
+input[type="password"] {
+    letter-spacing: 2px;
+    font-size: larger;
 }
 
 button {
